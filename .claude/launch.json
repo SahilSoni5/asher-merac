@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "landing", "runtimeExecutable": "python3", "runtimeArgs": ["-I", "-c", "import os,sys,runpy; os.chdir('/private/tmp/claude-501/-Users-vatsalsoni--claude-spares-spare-YmPKQ3/5d606252-8bb1-4421-9025-2625bb321504/scratchpad/mirror'); sys.argv=['srv','5179']; runpy.run_module('http.server', run_name='__main__')"], "port": 5179 }
+  ]
+}
