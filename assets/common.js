@@ -1,5 +1,5 @@
 /* ============================================================
-   ASHAR MERAC 2 — shared behaviour (requires GSAP + ScrollTrigger,
+   ASHAR MERAC — shared behaviour (requires GSAP + ScrollTrigger,
    optional Lenis). Exposes window.MUI.
    ============================================================ */
 (function () {
@@ -196,7 +196,7 @@
 
     root.classList.add("m-loc");
     root.innerHTML = `
-      <div class="m-loc__stage"><svg viewBox="0 0 800 800" aria-label="Distance map from Ashar Merac 2"></svg>
+      <div class="m-loc__stage"><svg viewBox="0 0 800 800" aria-label="Distance map from Ashar Merac"></svg>
         <div class="m-loc__mapwrap"></div></div>
       <div class="m-loc__side">
         <div class="m-loc__tabs" role="tablist"></div>
@@ -235,7 +235,7 @@
     const lbls = s("g"); svg.appendChild(lbls);
     const pulse = s("circle", { class: "m-loc__pulse", cx: C, cy: C, r: 14 }); svg.appendChild(pulse);
     svg.appendChild(s("circle", { class: "m-loc__core", cx: C, cy: C, r: 9 }));
-    const cl = s("text", { class: "m-loc__corelbl", x: C, y: C + 38, "text-anchor": "middle" }); cl.textContent = "ASHAR MERAC 2"; svg.appendChild(cl);
+    const cl = s("text", { class: "m-loc__corelbl", x: C, y: C + 38, "text-anchor": "middle" }); cl.textContent = "ASHAR MERAC"; svg.appendChild(cl);
 
     if (!reduce) {
       gsap.to(sweep, { rotate: 360, duration: 14, ease: "none", repeat: -1, svgOrigin: `${C} ${C}` });
@@ -278,7 +278,7 @@
 
     const tog = $("[data-maptoggle]", root), mw = $(".m-loc__mapwrap", root);
     tog.addEventListener("click", () => {
-      if (!mw.firstChild) mw.innerHTML = `<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ashar Merac 2 on Google Maps" src="https://maps.google.com/maps?q=${encodeURIComponent(L.mapQuery)}&z=14&output=embed"></iframe>`;
+      if (!mw.firstChild) mw.innerHTML = `<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ashar Merac on Google Maps" src="https://maps.google.com/maps?q=${encodeURIComponent(L.mapQuery)}&z=14&output=embed"></iframe>`;
       const on = root.classList.toggle("show-map");
       tog.textContent = on ? "Back to locator" : "View live map";
     });

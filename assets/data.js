@@ -1,10 +1,10 @@
 /* ============================================================
-   ASHAR MERAC 2 — single source of truth for all 4 variants.
-   Sources: ashar.in/p/ashar-merac (microsite) + "Ashar Merac 2
+   ASHAR MERAC — single source of truth for all 4 variants.
+   Sources: ashar.in/p/ashar-merac (microsite) + "Ashar Merac
    Quick Brochure.pdf". Where the two differ, see `notes`.
    ============================================================ */
 window.MERAC = {
-  name: "Ashar Merac 2",
+  name: "Ashar Merac",
   tagline: "Let’s return to a place where goodness awaits",
   taglineSub: "and your soul finds a home.",
   chapter: "The next chapter in joyous living",
@@ -89,7 +89,7 @@ window.MERAC = {
   retail: {
     title: "Gated community address with high-street retail",
     line: "Let’s return to ‘just two minutes’",
-    body: "The high-street retail at Ashar Merac 2 brings everyday convenience right to your doorstep. Thoughtfully designed with a striking façade, it blends style with functionality – a seamless shopping experience just an elevator ride away.",
+    body: "The high-street retail at Ashar Merac brings everyday convenience right to your doorstep. Thoughtfully designed with a striking façade, it blends style with functionality – a seamless shopping experience just an elevator ride away.",
     points: ["Only high-street retail experience in MTC", "2-level shopping experience", "Grand retail with road frontage", "Shops from 250 to 750 sq.ft.", "Sufficient car parking"]
   },
   homes: {
@@ -153,7 +153,7 @@ window.MERAC = {
       body: "For 25 years, every promise we made at Ashar Group has been carried forward by thousands of hands – with our customers, partners, landowners, teams and their families too. To all of them belongs this milestone." }
   },
   offices: [
-    { t: "Sales Office", a: "Ashar Merac 2, Opp. Finland International School, Road No. 27, Mulund–Thane Corridor, Shreenagar, Thane 400604" },
+    { t: "Sales Office", a: "Ashar Merac, Opp. Finland International School, Road No. 27, Mulund–Thane Corridor, Shreenagar, Thane 400604" },
     { t: "Experience Centre", a: "Ashar Aria, Next to Sapphire Hospital, Kharegaon Road, Kalwa (W), Thane 400605" }
   ],
   disclaimer: "This advertisement does not constitute any form of an offer and/or agreement and all purchases/leases shall solely be governed by the terms and conditions of the agreement for sale/lease. All images are artist’s impressions for representative purposes unless otherwise noted. Timings shown are approximate and may vary with traffic. On availability of further FSI, number of floors may increase. *T&C apply."
